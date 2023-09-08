@@ -7,7 +7,14 @@ import data from '../../utils/slider.json'
 
 const Residencies = () => {
   return (
-    <div>Residencies</div>
+    <section className="r-wrapper">
+        <div className="padding innerWidth r-container">
+            <div className="r-head flexColStart">
+                <span className='orangeText'>Best Choices</span>
+                <span className='primaryText'>Popular Residencies</span>
+            </div>
+        </div>
+    </section>
   )
 }
 
